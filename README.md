@@ -3,7 +3,7 @@
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/michelson/lazy_high_charts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This gem provides a simple and extremely flexible way to use HighCharts from ruby code.
-Tested on Ruby on Rails, Sinatra and Nanoc, but it should work with others too.
+Tested on Ruby on Rails, Sinatra and Nanoc, but it should work with others too. Highcharts is not free for commercial use, so make sure you have a valid license to use Highcharts.
 
 
 [![Build Status](https://travis-ci.org/michelson/lazy_high_charts.png?branch=master)](http://travis-ci.org/michelson/lazy_high_charts)
@@ -125,13 +125,13 @@ You can then set the actual message that is displayed like so:
 ````
 
 
-###Demo projects:
+### Demo projects:
 
-[Nanoc App](spec/dummy_nanoc/README.md)
+[Nanoc App](spec/dummy_nanoc)
 
-[Rails App](spec/dummy_rails/README.md)
+[Rails App](spec/dummy_rails)
 
-[Sinatra App](spec/dummy_sinatra/README.md)
+[Sinatra App](spec/dummy_sinatra)
 
 
 ### Update to latest js library. Additional command line
